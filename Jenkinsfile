@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'adamsidhoum/cicd-tasklist-frontend'
+        DOCKER_IMAGE = 'adamsdhm/cicd-tasklist-frontend'
         DOCKER_TAG = "${BUILD_NUMBER}"
         SONAR_SCANNER = tool 'SonarScanner'
     }
